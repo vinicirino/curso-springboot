@@ -17,7 +17,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 @Entity
 @Table(name = "tb_order")
 public class Order implements Serializable {
-	private static final long serialVersionUID = 5259853033106334235L;
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
