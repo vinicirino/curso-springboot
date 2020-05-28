@@ -17,7 +17,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.cursoJava.curso.entities.User;
 import com.cursoJava.curso.services.UserService;
-import com.sun.net.httpserver.Authenticator.Result;
 
 @RestController
 @RequestMapping(value = "/users")
